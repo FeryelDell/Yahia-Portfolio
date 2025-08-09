@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="navContact">Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1 data-i18n="studioTitle">Studio Name / Architect Name</h1>
+    <p data-i18n="tagline">Simple architecture portfolio</p>
+    <div class="language-switcher">
+      <button onclick="setLanguage('en')">EN</button>
+      <button onclick="setLanguage('fr')">FR</button>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html" data-i18n="navHome">Home</a>
+    <a href="intro.html" data-i18n="navIntro">Introduction</a>
+    <a href="projects.html" data-i18n="navProjects">Projects</a>
+    <a href="contact.html" class="active" data-i18n="navContact">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2 data-i18n="navContact">Contact</h2>
+      <p data-i18n="contactText">
+        If you'd like to get in touch about collaborations, feedback, or job opportunities, feel free to email me at <strong>email@example.com</strong>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 <span data-i18n="studioTitle">Studio Name</span>. <span data-i18n="footerRights">All rights reserved.</span></p>
+  </footer>
+</body>
+</html>

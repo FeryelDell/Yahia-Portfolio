@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="pageTitle">Architecture Portfolio | Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1 data-i18n="studioTitle">Studio Name / Architect Name</h1>
+    <p data-i18n="tagline">Simple architecture portfolio</p>
+    <div class="language-switcher">
+      <button onclick="setLanguage('en')">EN</button>
+      <button onclick="setLanguage('fr')">FR</button>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html" class="active" data-i18n="navHome">Home</a>
+    <a href="intro.html" data-i18n="navIntro">Introduction</a>
+    <a href="projects.html" data-i18n="navProjects">Projects</a>
+    <a href="contact.html" data-i18n="navContact">Contact</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2 data-i18n="welcome">Welcome</h2>
+      <p data-i18n="introText">
+        This is a simple architecture portfolio showcasing key works, design philosophies, and contact details. Feel free to browse through the site to learn more.
+      </p>
+    </section>
+
+    <section class="highlight-projects">
+      <h2 data-i18n="featuredProjects">Featured Projects</h2>
+      <div class="project-preview">
+        <div class="project">
+          <h3>Modern Villa</h3>
+          <p>Minimalist home design focused on open light and sustainable materials.</p>
+        </div>
+        <div class="project">
+          <h3>Urban Pavilion</h3>
+          <p>Public structure merging nature and geometry in a vibrant city center.</p>
+        </div>
+      </div>
+      <div class="projects-link">
+        <a href="projects.html" class="button" data-i18n="viewAllProjects">View All Projects</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 <span data-i18n="studioTitle">Studio Name</span>. <span data-i18n="footerRights">All rights reserved.</span></p>
+  </footer>
+</body>
+</html>
